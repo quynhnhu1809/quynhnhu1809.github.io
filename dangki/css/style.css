@@ -1,0 +1,43 @@
+body{
+    background-color: white;
+}
+.boxcenter{
+    margin-top: 10%;
+}
+.login{
+    border: 1px solid #000;
+    width: 30%;
+    padding-left: 40px;
+    margin-left: 30%;
+    font-style:oblique;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    background-image: url("/dangki/images/th38.jfif");
+    border-radius: 2px;
+    color: aliceblue;
+}
+input[type="text"]{
+    width: 450px;
+}
+input[type="password"]{
+    width: 450px;
+}
+select{
+    width: 460px;
+}
+button{
+    box-shadow: 1px 1px red;
+    margin-right: 20px;
+}
+button:hover{
+    box-shadow: 0 0 1px red;
+}
+button>a{
+    text-decoration: none;
+    color: #000;
+}
+.text:focus{
+    background-color: gold;
+}
